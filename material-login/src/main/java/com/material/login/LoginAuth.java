@@ -133,7 +133,7 @@ public class LoginAuth {
             return true;
         }
         if (!(email.getText().toString().replaceAll("[^\\w\\s]", "").length() > 0)
-                || !email.getText().toString().trim().endsWith(".com")) {
+                || !email.getText().toString().trim().contains("@")) {
             email.setError("Enter a Valid EMAIL");
             return true;
         }

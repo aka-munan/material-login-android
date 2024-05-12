@@ -42,6 +42,9 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(MainActivity.this,"Twitter",Toast.LENGTH_SHORT).show();
             }
         });
+        backBtn.setOnClickListener(view ->{
+            finishAffinity();
+        });
     }
 
 

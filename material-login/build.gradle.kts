@@ -10,7 +10,7 @@ android {
     defaultConfig {
         minSdk = 24
 
-        testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+        testInstrumentationRunner = "android.support.test.runner.AndroidJUnitRunner"
         consumerProguardFiles("consumer-rules.pro")
     }
 
@@ -36,16 +36,16 @@ android {
 }
 
 dependencies {
+
     implementation("com.google.android.material:material:1.12.0")
 }
-
 afterEvaluate {
     publishing {
         publications {
             create<MavenPublication>("material-login-page") {
                 from(components["release"])
                 groupId = "com.github.haris-mehraj"
-                artifactId = "material-login-page"
+                artifactId = "material-login-android"
                 version = "1.0-beta"
 
             }

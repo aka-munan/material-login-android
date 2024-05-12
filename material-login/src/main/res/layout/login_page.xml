@@ -154,6 +154,7 @@
 
                     <EditText
                         android:id="@+id/username"
+                        style="?attr/textAppearanceBodyLarge"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
@@ -161,11 +162,9 @@
                         android:layout_marginRight="16dp"
                         android:backgroundTint="@android:color/transparent"
                         android:hint="@string/usernameHint"
-                        android:imeOptions="actionDone"
+                        android:imeOptions="actionNext"
                         android:inputType="text"
-                        android:textColor="@color/colorNeutral"
-                        android:textSize="14sp"
-                        android:textStyle="bold" />
+                        android:textColor="@color/colorNeutral" />
 
                     <com.google.android.material.divider.MaterialDivider
                         android:layout_width="match_parent"

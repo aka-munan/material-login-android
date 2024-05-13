@@ -1,7 +1,16 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.SimpleLogin" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your dark theme here. -->
-        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+    <style name="Base.Theme.MaterialLogin" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorSkyBlue">#00ACEE</item>
+        <item name="colorPrimary">#EDE7F6</item>
+        <item name="colorPrimaryVariant">#EDE7F6</item>
+        <item name="colorSecondary">#FFFFFFFF</item>
+        <item name="colorError">#B00020</item>
+        <item name="colorOnPrimary">#7E57C3</item>
+        <item name="colorOnSecondary">#EDE7F6</item>
+        <item name="colorOnError">#EDE7F6</item>
+        <item name="colorNeutral">#E8EAF6</item>
+        <item name="colorNeutral_200">#B39DDB</item>
+        <item name="colorSurface">#12101F</item>
     </style>
 </resources>

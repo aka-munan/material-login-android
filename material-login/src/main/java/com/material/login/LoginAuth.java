@@ -13,7 +13,6 @@ import androidx.cardview.widget.CardView;
 import com.google.android.material.tabs.TabLayout;
 
 public class LoginAuth {
-    private Activity context;
     private EditText email;
     private EditText username;
     private EditText password;

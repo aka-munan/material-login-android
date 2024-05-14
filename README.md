@@ -1,4 +1,4 @@
-
+]
 # Material Login Page Design For Android
 
 **This is a Login Page Design based on Google's Material Design.**
@@ -12,7 +12,7 @@
 * [Screenshots](#screenshots)
 * [Installation](#installation)
 * [Usage](#usage)
-* [Theming](#theming)
+* [Theming](#customization)
 
 
 ## Features

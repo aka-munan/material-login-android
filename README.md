@@ -90,6 +90,10 @@ forgotPass = findViewById(R.id.forgotPass);
 
 ```java
 setContentView(R.layout.login_page);
+//use light mode only
+//AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
+//use dark mode only
+//AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES);
 backBtn = findViewById(R.id.backBtn);
 //create new instasnce 
 LoginAuth auth = new LoginAuth(this);

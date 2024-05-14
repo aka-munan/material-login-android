@@ -1,4 +1,4 @@
-]
+
 # Material Login Page Design For Android
 
 **This is a Login Page Design based on Google's Material Design.**
@@ -12,7 +12,7 @@
 * [Screenshots](#screenshots)
 * [Installation](#installation)
 * [Usage](#usage)
-* [Theming](#customization)
+* [Cutomization](#customization)
 
 
 ## Features
@@ -138,12 +138,12 @@ This liabrary uses `Theme.MaterialLogin` as its theme. Create new style inside `
     <!-- Base application theme. -->
     <style name="Base.Theme.SimpleLogin" parent="Theme.MaterialLogin">
         <!-- Customize your light/dark theme here. -->
-        <!-- <item name="colorPrimary">@color/colorPrimary</item> -->
+        <!-- <item name="colorPrimary">@color/my_light/dark_primary</item> -->
     </style>
 </resources>
 ```
 > [!TIP]
-> Create two seperate `styles.xml` files inside `res/values` and `res/values-night` for light and dark mode respectively
+> Create two seperate `style.xml` files inside `res/values` and `res/values-night` for light and dark mode respectively
 
 **Theming**
 
@@ -154,6 +154,22 @@ App name |`android:textColor` |`?attr/colorNeutral`
 Login Selecter |`app:cardBackgroundColor`<br/> `app:tabIndicatorColor` <br/>  `app:tabSelectedTextColor` <br/>`app:tabTextColor` |`?attr/colorPrimaryVariant`<br/>`?attr/colorOnPrimary`<br/>`?attr/colorOnSecondary`<br/>`?attr/colorOnPrimary`
 Username icon <br/> Email icon <br/> Password icon |`app:tint` |`?attr/colorNeutral_200`
 Login button | `android:backgroundTint` |`?attr/colorPrimaryVariant`
+
+**Text**
+
+> [!TIP]
+> Override these Strings in `res/values/strings.xml`
+
+Find refrence in [Screenshots](#screenshots)
+
+Item | Default Value | Refrence |
+------|--------------|------------|
+App Name | `@string/app_name` | Material Login
+Title | `@string/welcome_title` | Hello!
+Welcome Message | `@string/welcome_message` | Login / Sign-up to continue
+Email hint | `@string/emailHint` | email@eg.com
+Password Hint |`@string/passwordHint` |password
+Username Hint | `@string/usernameHint` |username
 
 ## 🚀 About Me
 I'm an Android Devloper proficient in Java.

@@ -2,6 +2,7 @@
     <!-- Base application theme. -->
     <style name="Theme.SimpleLogin" parent="Theme.MaterialLogin">
         <!-- Customize your dark theme here. -->
+        <item name="colorOnPrimary">#000000</item>
 
     </style>
 </resources>

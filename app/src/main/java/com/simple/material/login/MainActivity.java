@@ -5,6 +5,7 @@ import android.view.View;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatDelegate;
 
 import com.material.login.LoginAuth;
 import com.material.login.R;
@@ -13,12 +14,15 @@ import com.material.login.SignInListener;
 public class MainActivity extends AppCompatActivity {
 
     private View backBtn;
+    private View forgotPass;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.login_page);
+       // AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES);
         backBtn = findViewById(R.id.backBtn);
+        forgotPass = findViewById(R.id.forgotPass);
         LoginAuth auth = new LoginAuth(this);
         auth.setOnTabSelectedListener(null);
         auth.setSignInListener(new SignInListener() {
@@ -44,6 +48,9 @@ public class MainActivity extends AppCompatActivity {
         });
         backBtn.setOnClickListener(view ->{
             finishAffinity();
+        });
+        forgotPass.setOnClickListener(view ->{
+            //logic for forgot password
         });
     }
 

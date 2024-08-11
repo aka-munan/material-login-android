@@ -55,6 +55,7 @@ https://github.com/aka-munan/material-login-android/assets/105623907/04627bb0-b4
 > #### gradle
 ```
 implementation 'com.google.android.material:material:1.12.0'
+implementation(androidx.constraintlayout:constraintlayout:2.1.4)
 implementation 'com.github.aka-munan:material-login-android:1.0-beta'
 ```
 > #### maven
@@ -89,6 +90,7 @@ forgotPass = findViewById(R.id.forgotPass);
  inside onCreate function
 
 ```java
+ setTheme(R.style.Theme_MaterialLogin);
 setContentView(R.layout.login_page);
 //use light mode only
 //AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
